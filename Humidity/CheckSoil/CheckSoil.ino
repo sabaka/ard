@@ -8,7 +8,7 @@ int latchPin = 11;      // (11) ST_CP [RCK] on 74HC595
 int clockPin = 9;      // (9) SH_CP [SCK] on 74HC595
 int dataPin = 12;     // (12) DS [S1] on 74HC595
 
-int humidityThreshold = 300;
+int humidityThreshold = 500;
 
 void setup() {
   // Init pins for register
