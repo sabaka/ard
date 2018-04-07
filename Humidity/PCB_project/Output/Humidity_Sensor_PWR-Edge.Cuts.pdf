@@ -3,10 +3,10 @@
 3 0 obj
 << /Length 4 0 R /Filter /FlateDecode >>
 stream
-xÚ…–1nÃ0E÷œÂ'$Y”­èØ¡C¢ZºôúMKJ&-÷A€0yßþÉ˜áÂ––ðû:>¾µ%.Ï÷ÿ²|½Ë‡—§e­÷uqù¾M¿]|sÐ‰B…¼†¥=¾?¢ÏÛë¥ræsòx&šÜñšhÆÝ5¿?ÿˆNiÂ¡™t\°10cqä&'}–T¼\5ÑydGMî†xM4ãîŸëï›:MŽ¿¥™G~˜ïùj5òcyä§šóÁ-€A†Y2H“;"AM3Ï”tGsç¥Î<léª{Z«‘Ëûþ×÷ƒçù9ñÑå#ór7Àk¢w¨^—ðÒ'Aô’±ÑCK'ðÄsÓ<7ˆ×Äà£ËKÊr·èú±<ð“M²[*|tyÉ—ÜätÁ£žÖ-Í„kbðÑå%ÝÝ˜™FfHŸ¥D€ç}àÄG——dµú±¼ë¿¬šçù±<‘Ç31öòüXùá•ƒTµ-;‰Æ¡™t\°10cqä†ç¤ó<'ˆ×ÄØ—Èã{¶²ÏçÇòÐï¤ÿ§/‰á‘æ{¾ZüXù©æüåA96&r=çêÖ ¦™‡gJº£9‚óRg¶tÕ=­ÕÈå}ÿ[ÖûGÈåKñx&Æùo³<ò#*z_E|o!#@†DÐ36zdé$@žxnº€çñšsV<¾§,SZ<?–G~²©Avk@eæ¡SrÓÌÃžÖ-Í„kb<fŠÇ÷twwb&š!}–!^öÃ#7Ì÷dµù±üáç6;Šäendstream
+xÚ­–AŠAE÷sŠ>‘ÔUîÒ	YNŽÅÀÞd“ëÇFSBÉlcpÙOÍ“º…D¢C6º¿¿¾þ>7Þ~Þ>ŸöÏö÷c~yÿ±ízÙâíß[øïÁ/_ô•n¯í*×AÛ9OÝOÞ~=ˆ<Zäí”ñvÅÓE?æWƒÓE¿†G}Ð|ÑzÑE÷åút?e>ž·SêOÆ¯Ñ©¿ã3”G}Ð|Ñz±K[øF­ðñ¼2Þ®xºèÌÇó™Ê£>h¾h='!¼ôK'.úÑóvJŸâ¥ß3~58]ôkxÔÍ­çpü(ym‘Ï|Ôå«e¾ƒ"_û?Ï£>h¾h=‡ë—Qö‹¶Ègý¨®ßµì÷A‘Ï|PõAóEë9Ü¼å¼Ðùl©›wZÎ»A‘Ï|PõAóEë9Ü¾4Ê}I[ä³}LÝ¾§å¾7(ò™Ê£>h¾h=÷~ô;o÷ËNGr¿šFþ*ÌçmÎ|<Ÿù <êƒæ‹ÖÓˆ¾Û¼˜Ñüý¼0ÏÛ)õgã×èÔßñ™Ê£>h¾h=Øg¿Ø©%ýb>žß¥âÛì÷5:óñ|£×ñ¨š/ZÏIÌy=ï^2¯§¿ã›T|ŸûÆ>?ŽÏ|PõAóEëÉŽç’|æ#._)óåùÚÿyõAóEëÉ®_¸ìÑÈgý(®ß¥ìwî‘Ï|PõAóEëÉn^p9/D#ŸÍ#qóNÊyÇ=ò™Ê£>h¾h=ÙíK\îK¢‘Ïö1qûž”û÷Èg>(ú ùæõüjM´Ëendstream
 endobj
 4 0 obj
-597
+572
 endobj
 5 0 obj
 <<
@@ -67,7 +67,7 @@ endobj
 10 0 obj
 <<
 /Producer (KiCAD PDF)
-/CreationDate (D:20180404215621)
+/CreationDate (D:20180406211106)
 /Creator (PCBNEW)
 /Title (/Users/idubinin/git/Arduino/Humidity/PCB_project/Output/Humidity_Sensor_PWR-Edge.Cuts.pdf)
 /Trapped false
@@ -85,19 +85,19 @@ endobj
 xref
 0 12
 0000000000 65535 f 
-0000001424 00000 n 
-0000001315 00000 n 
+0000001399 00000 n 
+0000001290 00000 n 
 0000000015 00000 n 
-0000000685 00000 n 
-0000000704 00000 n 
-0000000866 00000 n 
-0000000972 00000 n 
-0000001086 00000 n 
-0000001197 00000 n 
-0000001483 00000 n 
-0000001692 00000 n 
+0000000660 00000 n 
+0000000679 00000 n 
+0000000841 00000 n 
+0000000947 00000 n 
+0000001061 00000 n 
+0000001172 00000 n 
+0000001458 00000 n 
+0000001667 00000 n 
 trailer
 << /Size 12 /Root 11 0 R /Info 10 0 R >>
 startxref
-1799
+1774
 %%EOF
