@@ -1,7 +1,7 @@
 // YL-39 + HC-68 humidity sensor
 
 byte pins[] = {A0, A1, A2, A3};
-byte vccs[] = {4,2,7,8};
+byte vccs[] = {8,7,4,2};
 
 int sensorReadDelay = 1000;
 int latchPin = 11;      // (11) ST_CP [RCK] on 74HC595
@@ -34,8 +34,10 @@ void loop() {
   for (int i = 0; i < 4; i++) {
     int humidity = readHumidity(pins[i], vccs[i]);
     Serial.print("Humidity Level ");
+    Serial.print(i);
+    Serial.print(" ");
     Serial.println(humidity);
-    if (humidity < humidityThreshold) {
+    if (humidity < humidityThreshold && humidity > 10) {
       bitSet(leds, 4 + i);
     }
   }
