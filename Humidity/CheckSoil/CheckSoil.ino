@@ -1,14 +1,19 @@
 // YL-39 + HC-68 humidity sensor
 
-byte pins[] = {A0, A1, A2, A3};
-byte vccs[] = {8,7,4,2};
+#define vetDelay 43200000 // wait if all sensors are wet
+#define dryDelay 180000 // wait if some sensors are dry (probably someone will wet soil)
+#define humidityThreshold 500 // minimum value for "vet"
+#define sensorReadDelay 1000 // defines how long sensor read operation takes
 
-int sensorReadDelay = 1000;
-int latchPin = 11;      // (11) ST_CP [RCK] on 74HC595
-int clockPin = 9;      // (9) SH_CP [SCK] on 74HC595
-int dataPin = 12;     // (12) DS [S1] on 74HC595
+// Register pins
+#define latchPin 11 // (11) ST_CP [RCK] on 74HC595
+#define clockPin 9 // (9) SH_CP [SCK] on 74HC595
+#define dataPin 12 // (12) DS [S1] on 74HC595
 
-int humidityThreshold = 500;
+// Mappings between analog and digital ports for sensors
+const byte pins[] = {A0, A1, A2, A3};
+const byte vccs[] = {8,7,4,2};
+
 
 void setup() {
   // Init pins for register
@@ -30,6 +35,7 @@ void setup() {
 
 void loop() {
   byte leds = 0;
+  bool status = true;
 
   for (int i = 0; i < 4; i++) {
     int humidity = readHumidity(pins[i], vccs[i]);
@@ -38,12 +44,17 @@ void loop() {
     Serial.print(" ");
     Serial.println(humidity);
     if (humidity < humidityThreshold && humidity > 10) {
-      bitSet(leds, 4 + i);
+      bitSet(leds, 4 + i); // left for bits are meaningfull here
+      status = false;
     }
   }
   lightLeds(leds);
 
-  delay(100);
+  if (status) {
+    delay(vetDelay);
+  } else {
+    delay(dryDelay);
+  }
 }
 
 /*
